@@ -1,0 +1,13 @@
+
+$ git init
+
+$ git branch master
+
+$ git pull origin master
+
+$ git add .
+
+$ git commit -m "thinhr"
+
+$ git push origin master
+
