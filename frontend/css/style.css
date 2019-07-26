@@ -176,3 +176,43 @@ ul li img {
     color: #333;
     }
 /* end menu-left */
+/* index class="text-box-1" */
+.text-box-1{
+    margin-top: -60px; padding-bottom: 60px;
+}
+
+@media (max-width: 991px)
+{
+    .text-box-1{
+    margin-top: -50px; padding-bottom: 60px;
+}
+}
+@media (max-width: 767px)
+{
+    .text-box-1{
+    margin-top: -70px; padding-bottom: 60px;
+}
+}
+@media (max-width: 557px)
+{
+    .text-box-1{
+    margin-top: -57px; padding-bottom: 60px;
+}
+}
+@media (max-width:425px)
+{
+    .text-box-1{
+    margin-top: -50px; padding-bottom: 60px;
+}
+}
+@media (max-width:375px)
+{
+    .text-box-1{
+    margin-top: -40px; padding-bottom: 60px;
+}
+}
+/* end text box-1 */
+
+/* giảng viên tiêu biểu */
+
+/* end giảng viên tiêu biểu */
