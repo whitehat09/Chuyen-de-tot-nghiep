@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class pageController extends Controller
+{
+     public function getIndex()
+    {
+    	return view('page.trang-chu');
+    }
+     public function getTrangCon()
+    {
+    	return view('page.trangcon');
+    }
+}
