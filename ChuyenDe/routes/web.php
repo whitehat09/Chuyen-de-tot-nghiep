@@ -14,8 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
 Route::get('Index',[
 	'as'=>'trang-chu',
 	'uses'=>'pageController@getIndex']);
-
+Route::get('trang-con',[
+	'as'=>'trang-con',
+	'uses'=>'pageController@getTrangCon']);
