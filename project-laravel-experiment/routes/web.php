@@ -11,7 +11,14 @@
 |
 */
 Route::get('/index', function () {
-    return view('fontend.index');
+    return view('home.index');
+});
+
+Route::get('/index-profile', function () {
+    return view('home.index-profile');
+});
+Route::get('/index-course-detail', function () {
+    return view('home.index-course-detail');
 });
 Route::get('/', function () {
     return view('home');
@@ -30,3 +37,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');/*đường dẫn home trỏ tới bộ điều khiển ... tới hàm index*/
 
+Route::get('/admin/posts', 'AdminController@create');
+Route::post('/admin/posts', 'AdminController@store');
+
+Route::get('/backend', function () {
+    return view('admin.index-admin');
+});
