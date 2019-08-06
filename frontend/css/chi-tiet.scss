@@ -1,0 +1,162 @@
+.top-dad
+{
+	background:#09788f;
+
+	.top{
+		padding:{
+
+		top:30px;
+		left: 0;
+		right: 0;
+		}
+		.tieude{
+			h1{
+				font-weight: bold;
+				color: white;
+			}
+		}
+		.gioithieu{
+			margin-top:20px;
+			font-size: 16px;
+			color: white;
+			padding: 0;
+		}
+
+		.anh-dai-dien{
+			margin-top:20px;
+			height: 50px;
+			padding: 0;
+			img{
+				width: 36px;
+				height: 36px;
+				border-radius:18px;
+			}
+			a{
+				color: white;
+				font-weight: bold;
+				padding-left:10px;
+			}
+
+		}
+	}
+
+}
+
+.noidung{
+		margin-top: 20px;
+		padding: 0;
+		.video-gioi-thieu
+		{
+			padding: 0px;
+		}
+		.tai-khoa-hoc{
+			
+
+			.box{
+				position:none;
+				width: 80%;
+				border: 1px solid #d7d7d7;
+				border-radius:5px;
+				padding-top: 10px;
+				
+				.btn{
+					width: 100%;
+					
+					font-weight: bold;
+					font-size: 26px;
+					background: red;
+					border-radius: 15px;
+				}
+				.btn-giohang{
+					background: white;
+					border: 1px solid black;
+					margin-top: 10px;
+				}
+				p{
+					margin-top: 10px;
+					span{
+						font-weight: bold;
+					}
+				}
+			}
+
+			.box-im{
+				visibility: hidden;
+			}
+			.box-move{
+				width: 30%;
+				margin-left:20px; 
+
+				background:white;
+				margin: {
+					top:-300px;
+					right: 30px;
+				}
+				position: absolute;
+				position: fixed;
+			}
+			@media only screen and (max-width: 768px){
+					  		.box-im{
+					      width: 100%;
+					      visibility: visible;
+					  }
+					  .box-move{
+					  	visibility: hidden;
+					  }
+
+					}
+		}
+		.nut-duoi-video{
+			.btn{
+				background:#09788f;
+			}
+		}
+		
+
+			@media only screen and (max-width: 768px){
+					  		.nut-duoi-video{
+					      visibility: hidden;
+					  }
+					  .ban-se-hoc-duoc-gi{
+							margin: 0px;
+							padding:0px;
+						}
+
+			}
+
+
+			.ban-se-hoc-duoc-gi{
+				margin-top:30px;
+				border-radius: 5px; 
+				border: 1px solid #d7d7d7;
+				padding:20px;
+			}
+
+
+			.gioi-thieu-khoa-hoc{
+				margin-top:30px;
+				border-radius: 5px; 
+				border: 1px solid #d7d7d7;
+				padding: 0;
+				h3{
+					padding-left: 20px;
+					padding-bottom:20px;
+					margin: 0;
+				}
+				p{
+					padding-left: 20px;
+				}
+			}
+
+			@media only screen and (max-width: 768px){
+					  	
+					  .ban-se-hoc-duoc-gi{
+							margin-top:-100px;
+							
+						}
+
+			}
+		
+	}
+
+

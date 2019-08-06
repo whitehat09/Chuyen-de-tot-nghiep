@@ -10,4 +10,8 @@ class pageController extends Controller
     {
     	return view('page.trang-chu');
     }
+     public function getTrangCon()
+    {
+    	return view('page.trangcon');
+    }
 }
