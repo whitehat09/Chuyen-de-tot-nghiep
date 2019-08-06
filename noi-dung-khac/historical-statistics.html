@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Học tập - online</title>
+
+    <link rel="icon" href="https://banner2.kisspng.com/20180604/co/kisspng-computer-icons-layers-download-5b15e50a7ab636.0472186015281615465026.jpg" type="image/x-icon">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    
+</head>
+
+  <body>
+   
+      
+
+      
+
+      <!-- Đầu và thân trang -->
+    <div style="min-height: calc(100vh - 160px);background: linear-gradient(135deg, rgba(144, 139, 139, 0.89) 0%, #f5f5f5 100%);"  >
+    
+        <div class="container box-1"  >
+            <div class="row" style="padding-top: 20px;" >
+                <div class="col-xs-12 col-md-2" >
+                    <!-- Logo -->
+                    <img width="100%" src="https://www.google.com.vn/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png">
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div >
+                        <input style="width: 100%; max-width: 550px; padding:10px;border-radius: 25px;background-color: white; height: 44px;border-color:#f9f9f9;margin-bottom: 20px;" type="search" placeholder="Tìm kiếm tên sách bạn cần tìm ..." class="form-control">
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-md-4"  >
+                   <div >
+            
+                        <div >
+                            <input style="padding:10px;float: right;padding-right: 25px ;padding-left: 25px; width: auto;background-color: #00BBFF;color: white;border: none; border-radius: 50px; border-color: #00BBFF;" type="submit" value="Đăng nhập" class="wpcf7-form-control wpcf7-submit " onclick="openLoginModal();">
+                            <input style="padding:10px;float: right;padding-right: 25px ;padding-left: 25px; width: auto;background-color: #00BBFF;color: white;border: none; border-radius: 50px; border-color: #00BBFF;" type="submit" value="Đăng Ký" class="wpcf7-form-control wpcf7-submit " onclick="openRegisterModal();"></div>
+            
+                    </div>
+
+
+                    <div class="modal fade login" id="loginModal">
+                        <div class="modal-dialog login animated">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title">Đăng nhập với</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="box">
+                                        <div class="content">
+                                        <div class="social">
+                                            <a class="circle github" href="#">
+                                                <i class="fa fa-github fa-fw"></i>
+                                            </a>
+                                            <a id="google_login" class="circle google" href="#">
+                                                <i class="fa fa-google-plus fa-fw"></i>
+                                            </a>
+                                            <a id="facebook_login" class="circle facebook" href="#">
+                                                <i class="fa fa-facebook fa-fw"></i>
+                                            </a>
+                                        </div>
+                                        <div class="division">
+                                            <div class="line l"></div>
+                                            <span>
+                                             Hoặc là
+                                            </span>
+                                            <div class="line r"></div>
+                                        </div>
+                                        <div class="error"></div>
+                                        <div class="form loginBox">
+                                            <form method="" action="" accept-charset="UTF-8">
+                                                <input id="email" class="form-control" type="text" placeholder="Email" name="email">
+                                                <input id="password" class="form-control" type="password" placeholder="Password" name="password">
+                                                <input class="btn btn-default btn-login" type="button" value="Login" onclick="loginAjax()">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="content registerBox" style="display:none;">
+                                        <div class="form">
+                                            <form method="" html="{:multipart=>true}" data-remote="true" action="" accept-charset="UTF-8">
+                                                <input id="email" class="form-control" type="text" placeholder="Email" name="email">
+                                                <input id="password" class="form-control" type="password" placeholder="Password" name="password">
+                                                <input id="password_confirmation" class="form-control" type="password" placeholder="Repeat Password" name="password_confirmation">
+                                                <input class="btn btn-default btn-register" type="button" value="Create account" name="commit">
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <div class="forgot login-footer">
+                                    <span>Có thể
+                                         <a href="javascript: showRegisterForm();">Tạo một tài khoản</a>
+                                    ?</span>
+                                </div>
+                                <div class="forgot register-footer" style="display:none">
+                                     <span>Đã có tài khoản ? </span>
+                                     <a href="javascript: showLoginForm();">Đăng nhập</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+               
+                    
+                
+                
+                
+            </div><!-- End box-1 -->
+            <div  >
+                <nav class=" navbar-default " style="background-color:#fafafa;border-radius: 5px;" role="navigation">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand " style="margin-top: 5px;" href="index.html"><span class="glyphicon glyphicon-home" ></span> Trang Chủ</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="navbar-collapse menu collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+                        <ul class="nav navbar-nav navbar-right">
+                            <!-- Danh mục menu -->
+                            <li>
+                                <a href="http://abcdxyz.com/public/hoc-tap">
+                                    <img src="https://i.vietnamdoc.net/data/image/Icon/2015/edit-size-32x32-znd.png" class="img-rounded" alt="Image">
+                                    <span>Danh mục 1</span>
+                                </a>
+                            </li>   
+                            <!--  -->                               
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+                    
+        </div>
+        <div class="box-2" style="padding-bottom: 40px;padding-top: 40px;" >
+            <div class=" container" style=" padding: 20px;border: 1px solid #e4e4e4;border-radius: 5px; box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);background-color: white;" >
+        <div class="row"  >
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 box-border-right "   >
+               <div class="row">
+                  <div class="col-md-12">
+                    <a class="thumbnail thumb-img" style="border: none;text-decoration: none;" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="img/avt.jpg" data-target="#image-gallery">
+                      <img class=" img-responsive " src="img/avt.jpg" alt="Another alt text">
+                        <p style="   padding-top: 20px;"><i class="fas fa-search-plus"></i>&nbsp Click đê phóng to
+                        </p>
+                    </a>
+                  </div>
+                 </div>
+                  <div class="list-img-book">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <ul>
+                          <li>
+                            <a class="thumbnail " style="border: none;margin-bottom: 0px" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="img/toan-7.webp" data-target="#image-gallery">
+                              <img class=" img-responsive " src="img/toan-7.webp" alt="Another alt text">
+                            </a>
+                          </li>
+                          <li>
+                            <a class="thumbnail " style="border: none;margin-bottom: 0px" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="img/toan-7.webp" data-target="#image-gallery">
+                              <img class=" img-responsive " src="img/toan-7.webp" alt="Another alt text">
+                            </a>
+                          </li>
+                          <li>
+                            <a class="thumbnail " style="border: none;margin-bottom: 0px" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="img/toan-7.webp" data-target="#image-gallery">
+                              <img class=" img-responsive " src="img/toan-7.webp" alt="Another alt text">
+                            </a>
+                          </li>
+                        </ul>                                                
+                      </div>
+                    </div>
+                  </div>
+
+                  <div style=" border-top: 1px solid #dedede;padding: 15px;" >
+            <a style="color: #808080;text-decoration: none; "  href="index-personal-information.html">
+                <span class="fa fa-user"></span>
+                <span>Thông tin cá nhân </span>
+            </a>
+        </div>
+        <div style=" border-top: 1px solid #dedede;border-bottom : 1px solid #dedede;padding: 15px;" >
+            <a style="color: #808080;text-decoration: none;"  href="historical-statistics.html">
+
+                <i class="fas fa-chart-bar"></i>
+                <span>Thống kê Lịch sử </span>
+            </a>
+        </div>
+                         <div class="list-contact">
+                            <div class="row" style="display: flex;align-items: center; padding-top: 20px;padding-bottom: 30px;">
+                              <div class="heart-book">
+                                <div class="col-md-5">
+                                  <a href="#">
+                                    <p>
+                                      <i class="fas fa-heart"></i>
+                                      &nbsp Yêu thích
+                                    </p>
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="book-share">
+                                <div class="col-md-7">
+                                  <a href="#">
+                                    <p>
+                                      <i class="fas fa-thumbs-up"></i>
+                                        &nbsp Like 0
+                                      </p>
+                                  </a>
+                                  <a href="#">
+                                    <p>
+                                      <i class="fab fa-facebook-square"></i>
+                                        &nbsp Share 0
+                                      </p>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 " style="padding: 5px; padding-left: 10px;"  >
+            <div style="padding-bottom: 70px;border-bottom: 1px solid #e4e4e4;" >
+
+                <a href="#" style="text-decoration: none;color: #5f6368;">
+                    Thông tin tài khoản <B>></B> &nbsp
+                </a>
+                <a href="#" style="text-decoration: none;color: #5f6368;">
+                    thống kê lịch sử 
+                </a><br>
+   
+
+            </div>
+
+            <!-- content lịch sử hoạt động -->
+
+            <!--  content lịch sử hoạt động -->
+
+
+
+
+    
+    
+
+
+
+</div  >
+          
+        </div>
+        
+      </div>
+        </div>
+        
+
+
+        
+                
+            <div class="container" style="text-align: center;padding-bottom: 40px;padding-top: 20px;" >
+                
+                  
+                  <b style="color: #ff3c3c"> Cảm ơn bạn đọc đã trải nghiệm giá trị thực của thư viện điển tử! Rất mong muốn bạn đọc góp ý để xây dựng 1 hệ thống thư viện</b><br>
+                  <br>
+                  <b style="color: #ff3c3c" >điện tử vững mạnh hơn nữa. Xin cảm ơn!</b>
+                
+
+                
+            </div>
+    </div>
+    <!--End Đầu và thân trang -->
+      
+
+
+
+ <!-- Chân  trang -->
+    <div  id="box-footer" style="background-color: #506367; padding-bottom: 40px;padding-top: 40px;font-size: 16px;color: white;" >
+            <div class="container" >
+                <div class="row" >
+                        <div class="col-md-6 col-sm-6 col-xs-12" >
+                                <b" >
+                                        Web đọc sách online 
+                                </b>
+                                <p>
+                                        Địa chỉ số 99 - Trần Quốc Hoàn - tầng 2 tòa nhà A6 - p212
+                                </p>
+                                <p>
+                                        Điện thoại +84 839 900 098  E-mail: hoangngocthangofficer@gmail.com
+                                </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12" style="text-align: center;" >
+                            <h2 style="padding-bottom: 20px;">
+                            Fanpage
+                            </h2>
+                             <a href="https://www.instagram.com/whitehat09/">
+                            <button class="box-button-lien-he"  >
+                            <i class="fab fa-instagram"></i>
+                            Instagram
+                            </button>
+                        </a>
+                        <a href="https://bom.to/OxwWA">
+                            <button class="box-button-lien-he"  >
+                            <i class="fab fa-facebook-f"></i>
+                            Facebook
+                        </button>
+                        </a>
+
+
+
+                        </div>
+                    
+                </div>
+                
+    </div>
+    <!-- End chân trang -->
+    <!-- hiển thị zoom -->
+
+    <!--  hiện thị zoom -->
+    <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="image-gallery-title"></h4>
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                                    </button>
+                </div>
+                <div class="modal-body">
+                    <img id="image-gallery-image" class="img-responsive col-md-12 col-sm-12 col-xs-12" src="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
+                                    </button>
+
+                    <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
+                                    </button>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script  ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        openLoginModal();
+    });
+</script>
+    
+  </body>
+</html>
