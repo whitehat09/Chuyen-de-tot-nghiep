@@ -19,3 +19,7 @@ Route::get('Index',[
 	'as'=>'trang-chu',
 	'uses'=>'pageController@getIndex']);
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
