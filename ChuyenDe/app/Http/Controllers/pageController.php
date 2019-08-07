@@ -14,4 +14,7 @@ class pageController extends Controller
     {
     	return view('page.trangcon');
     }
+    public function getTrangchitiet(){
+    	return view('page.trang-chi-tiet');
+    }
 }

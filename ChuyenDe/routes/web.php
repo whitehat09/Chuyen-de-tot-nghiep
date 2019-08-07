@@ -19,7 +19,12 @@ Route::get('Index',[
 	'uses'=>'pageController@getIndex']);
 
 
-Route::get('lol',function()
-{
-	echo "faskjdfhkjasdhf";
-});
+Route::get('trangcon',[
+	'as'=>'trang-con',
+	'uses'=>'pageController@getTrangcon']);
+
+Route::get('trangchitiet',[
+	'as'=>'trang-chi-tiet',
+	'uses'=>'pageController@getTrangchitiet']);
+
+
