@@ -18,3 +18,8 @@ Route::get('Index',[
 	'as'=>'trang-chu',
 	'uses'=>'pageController@getIndex']);
 
+
+Route::get('lol',function()
+{
+	echo "faskjdfhkjasdhf";
+});
