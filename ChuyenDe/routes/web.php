@@ -17,14 +17,4 @@ Route::get('/', function () {
 Route::get('Index',[
 	'as'=>'trang-chu',
 	'uses'=>'pageController@getIndex']);
-<<<<<<< HEAD
 
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-=======
-Route::get('trang-con',[
-	'as'=>'trang-con',
-	'uses'=>'pageController@getTrangCon']);
->>>>>>> 4f53f81b207c40a2a509b7bb7a4831e2e1ee3fde
