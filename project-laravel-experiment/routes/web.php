@@ -37,9 +37,15 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');/*đường dẫn home trỏ tới bộ điều khiển ... tới hàm index*/
 
-Route::get('/admin/posts', 'AdminController@create');
-Route::post('/admin/posts', 'AdminController@store');
+Route::get('/admin/posts', 'AdminController@getadmin')->name('admin.index-admin');
+
 
 Route::get('/backend', function () {
     return view('admin.index-admin');
 });
+
+Route::get('/back', function () {
+    return view('admin.layouts.content-index'); // gọi trang layouts ra 
+});
+
+Route::resource('admin/categories', 'Admin\CategoriesController');
