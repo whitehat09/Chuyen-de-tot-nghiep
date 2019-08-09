@@ -4,21 +4,20 @@
     @section('conten')
 
 
+	
+
 	<!doctype html>
 	<html lang="en">
 	  <head>
 	    <!-- Required meta tags -->
-	    <meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 	    <!-- Bootstrap CSS -->
-	   
-	<link rel="stylesheet" type="text/css" href="source/css/chi-tiet.css">
+           <link rel="stylesheet" type="text/css" href="source/css/chi-tiet.css">
+
 	    <title>Hello, world!</title>
 	  </head>
 	  <body>
 	  
-		   <div class="top-dad container-fluid" style="font-family: inherit">
+		   <div class="top-dad" style="font-family: inherit">
 				<header class="container top " style="">
 					<div class="tieude">
 						<h1>9 buoc nghe tieng anh dot pha	</h1>
@@ -27,8 +26,8 @@
 					<div class="gioithieu col-md-6 col-sm-8">
 						Học Tiếng Anh không khó nó chỉ khó khi bạn không biết đột phá. Khoá học sẽ giúp nắm chắc các bước luyện nghe đỉnh cao, giúp khả năng nghe của bạn phát triển nhanh chóng.
 					</div>
-
-					<div class="anh-dai-dien col-12 ">
+					
+					<div class="anh-dai-dien col-md-12 col-sm-12" style="float: left;">
 						
 							<img src="https://static.unica.vn/uploads/thaoptt09@gmail.com/March222017202pm_hannah-pham_thumb.jpg"  class="img-circle"><a href=""><span></span>Hannah Phạm</span></a>
 		                   
@@ -45,18 +44,11 @@
 
 				<div class="tai-khoa-hoc col-md-4 col-12" style="padding: 0;margin: 0">
 					<div class="container box box-im">
-						<button type="button" class="btn btn-danger">TẢI XUỐNG</button>
+						<H2>1 tỉ</H2>
+						<button type="button" class="btn btn-danger">ĐĂNG KÍ</button>
 						<button type="button" class="btn btn-giohang"> <i class="glyphicon glyphicon-shopping-cart"></i> Thêm vào giỏ hàng</button>
-						<p><i class="far fa-clock"> </i> Thời lượng: <span>cacac</span></p>
-						<p><i class="far fa-clock"> </i> Giáo trình: <span>cacac</span></p>
-						<p><i class="far fa-clock"></i> Sở hữu khóa học trọn đời</span></p>
-
-					</div>
-					<div class="container box box-move">
-						<button type="button" class="btn btn-danger">TẢI XUỐNG</button>
-						<button type="button" class="btn btn-giohang"> <i class="glyphicon glyphicon-shopping-cart"></i> Thêm vào giỏ hàng</button>
-						<p><i class="far fa-clock"> </i> Thời lượng: <span>cacac</span></p>
-						<p><i class="far fa-clock"> </i> Giáo trình: <span>cacac</span></p>
+						<p><i class="far fa-clock"> </i> Thời lượng: <span></span></p>
+						<p><i class="far fa-clock"> </i> Giáo trình: <span></span></p>
 						<p><i class="far fa-clock"></i> Sở hữu khóa học trọn đời</span></p>
 
 					</div>
@@ -103,9 +95,7 @@
 
 	    <!-- Optional JavaScript -->
 	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	   
 	  </body>
 	</html>
 

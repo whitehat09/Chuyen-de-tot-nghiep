@@ -67,7 +67,7 @@
                 </div>
                 <div class="col-md-3 hidden-sm hidden-xs " style="margin-top: 23px;">
                     <div class="box-login" style="text-align: end;">
-                        <a href="#"><button class="btn btn-default btn-login" type="button" style="font-size: 19px;"><i class="fas fa-user-circle" style="margin-right: 5px "></i>  <span>Đăng Nhập</span></button></a>
+                        <a href="{{route('dang-nhap')}}"><button class="btn btn-default btn-login" type="button" style="font-size: 19px;"><i class="fas fa-user-circle" style="margin-right: 5px "></i>  <span>Đăng Nhập</span></button></a>
                     </div>
                 </div>
                 <div class="hidden-md hidden-lg col-sm-12" style="margin-top: 23px;">
@@ -105,7 +105,7 @@
                 <div class="collapse navbar-collapse menu" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#">
+                            <a href="{{route('trang-con')}}">
                                 <img src="https://i.vietnamdoc.net/data/image/Icon/2015/edit-size-32x32-znd.png" class="img-rounded" alt="Image">
                                 <span>Ngoại ngữ</span>
                             </a>
@@ -277,10 +277,7 @@
                         </ul>
                     </span>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 hei2 pdr facebook-box hidden-xs">
-                    <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/unica.vn/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=410486232859596&amp;container_width=390&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Funica.vn%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false"><span style="vertical-align: bottom; width: 340px; height: 214px;"><iframe name="f681c77c30f104" width="1000px" height="1000px" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.11/plugins/page.php?adapt_container_width=true&amp;app_id=410486232859596&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Dfa2a5f3d5813d4%26domain%3Dunica.vn%26origin%3Dhttps%253A%252F%252Funica.vn%252Ff4c92044660868%26relation%3Dparent.parent&amp;container_width=390&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Funica.vn%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 340px; height: 214px;" class=""></iframe></span></div>
-                   
-                </div>
+                
             </div>
         </div>
     </div>

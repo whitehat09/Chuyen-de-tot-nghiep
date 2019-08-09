@@ -90,8 +90,6 @@
       margin: 0; }
     .noidung .gioi-thieu-khoa-hoc p {
       padding-left: 20px; }
-  @media only screen and (max-width: 768px) {
-    .noidung .ban-se-hoc-duoc-gi {
-      margin-top: -100px; } }
+  
 
 /*# sourceMappingURL=chi-tiet.css.map */

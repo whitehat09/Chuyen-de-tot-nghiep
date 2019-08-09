@@ -27,4 +27,12 @@ Route::get('trangchitiet',[
 	'as'=>'trang-chi-tiet',
 	'uses'=>'pageController@getTrangchitiet']);
 
+Route::get('dangnhap',[
+	'as'=>'dang-nhap',
+	'uses'=>'pageController@getLogin']);
+
+Route::get('dangki',[
+	'as'=>'dang-ki',
+	'uses'=>'pageController@getDangki']);
+
 

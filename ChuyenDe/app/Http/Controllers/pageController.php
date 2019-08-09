@@ -17,4 +17,13 @@ class pageController extends Controller
     public function getTrangchitiet(){
     	return view('page.trang-chi-tiet');
     }
+
+    public function getLogin(){
+        return view('page.dangnhap');
+    }
+
+    public function getDangki(){
+        return view('page.dangky');
+    }
+
 }
