@@ -13,9 +13,10 @@ class onlinelearning_category extends Seeder
     {
         DB::table('onlinelearning_category')->insert([
         	'id'=>'2', // khóa chính tự động tăng 
-            'name'=>'Hoàng Ngọc Thắng', // chuổi varchar 255 ký tự 
-            'description'=>'đẹp trai vô đối', // kiểu text 
-            'year-old'=>'21'// kiểu số 
+            'title'=>'Hoàng Ngọc Thắng', // chuổi varchar 255 ký tự 
+            'description'=>'...', // kiểu text 
+            'img'=>'',
+            
         ]);
     }
 }
