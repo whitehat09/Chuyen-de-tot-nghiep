@@ -55,14 +55,14 @@
                   <span class="label label-success">4</span>
                 </a>
                 <ul class="dropdown-menu">
-                  <li class="header">You have 4 messages</li>
+                  <li class="header">Bạn có 4 tin nhắn</li>
                   <li>
                     <!-- inner menu: contains the actual data -->
                     <ul class="menu">
                       <li><!-- start message -->
                         <a href="#">
                           <div class="pull-left">
-                            <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                            <img src="https://scontent.fhph1-2.fna.fbcdn.net/v/t1.0-9/65433994_2371782709769127_1807338013571678208_n.jpg?_nc_cat=109&_nc_oc=AQndjujF82xmBmkKbtc6lGdN5TIWmYXo3Judu9Wv3Lrs08Xg5MacgkEr2RVuKR-FKr34N-dX_Nu5YSGPIMI5t5tJ&_nc_ht=scontent.fhph1-2.fna&oh=b403dba86d2008aa04dd28709730d6fc&oe=5DD5F40F" class="img-circle" alt="User Image">
                           </div>
                           <h4>
                             Support Team
@@ -75,19 +75,19 @@
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <img src="dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                            <img src="https://scontent.fhph1-2.fna.fbcdn.net/v/t1.0-9/65433994_2371782709769127_1807338013571678208_n.jpg?_nc_cat=109&_nc_oc=AQndjujF82xmBmkKbtc6lGdN5TIWmYXo3Judu9Wv3Lrs08Xg5MacgkEr2RVuKR-FKr34N-dX_Nu5YSGPIMI5t5tJ&_nc_ht=scontent.fhph1-2.fna&oh=b403dba86d2008aa04dd28709730d6fc&oe=5DD5F40F" class="img-circle" alt="User Image">
                           </div>
                           <h4>
-                            AdminLTE Design Team
+                            ....
                             <small><i class="fa fa-clock-o"></i> 2 hours</small>
                           </h4>
-                          <p>Why not buy a new awesome theme?</p>
+                          <p>....?</p>
                         </a>
                       </li>
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <img src="dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                            <img src="https://scontent.fhph1-2.fna.fbcdn.net/v/t1.0-9/65433994_2371782709769127_1807338013571678208_n.jpg?_nc_cat=109&_nc_oc=AQndjujF82xmBmkKbtc6lGdN5TIWmYXo3Judu9Wv3Lrs08Xg5MacgkEr2RVuKR-FKr34N-dX_Nu5YSGPIMI5t5tJ&_nc_ht=scontent.fhph1-2.fna&oh=b403dba86d2008aa04dd28709730d6fc&oe=5DD5F40F" class="img-circle" alt="User Image">
                           </div>
                           <h4>
                             Developers
@@ -99,7 +99,7 @@
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <img src="dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                            <img src="https://scontent.fhph1-2.fna.fbcdn.net/v/t1.0-9/65433994_2371782709769127_1807338013571678208_n.jpg?_nc_cat=109&_nc_oc=AQndjujF82xmBmkKbtc6lGdN5TIWmYXo3Judu9Wv3Lrs08Xg5MacgkEr2RVuKR-FKr34N-dX_Nu5YSGPIMI5t5tJ&_nc_ht=scontent.fhph1-2.fna&oh=b403dba86d2008aa04dd28709730d6fc&oe=5DD5F40F" class="img-circle" alt="User Image">
                           </div>
                           <h4>
                             Sales Department
@@ -111,7 +111,7 @@
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <img src="dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                            <img src="https://scontent.fhph1-2.fna.fbcdn.net/v/t1.0-9/65433994_2371782709769127_1807338013571678208_n.jpg?_nc_cat=109&_nc_oc=AQndjujF82xmBmkKbtc6lGdN5TIWmYXo3Judu9Wv3Lrs08Xg5MacgkEr2RVuKR-FKr34N-dX_Nu5YSGPIMI5t5tJ&_nc_ht=scontent.fhph1-2.fna&oh=b403dba86d2008aa04dd28709730d6fc&oe=5DD5F40F" class="img-circle" alt="User Image">
                           </div>
                           <h4>
                             Reviewers
@@ -128,16 +128,16 @@
               <!-- User Account: style can be found in dropdown.less -->
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-                  <span class="hidden-xs">Alexander Pierce</span>
+                  <img src="https://scontent.fhph1-2.fna.fbcdn.net/v/t1.0-9/65433994_2371782709769127_1807338013571678208_n.jpg?_nc_cat=109&_nc_oc=AQndjujF82xmBmkKbtc6lGdN5TIWmYXo3Judu9Wv3Lrs08Xg5MacgkEr2RVuKR-FKr34N-dX_Nu5YSGPIMI5t5tJ&_nc_ht=scontent.fhph1-2.fna&oh=b403dba86d2008aa04dd28709730d6fc&oe=5DD5F40F" class="user-image" alt="User Image">
+                  <span class="hidden-xs">Hoàng Ngọc Thắng</span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
-                    <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                    <img src="https://scontent.fhph1-2.fna.fbcdn.net/v/t1.0-9/65433994_2371782709769127_1807338013571678208_n.jpg?_nc_cat=109&_nc_oc=AQndjujF82xmBmkKbtc6lGdN5TIWmYXo3Judu9Wv3Lrs08Xg5MacgkEr2RVuKR-FKr34N-dX_Nu5YSGPIMI5t5tJ&_nc_ht=scontent.fhph1-2.fna&oh=b403dba86d2008aa04dd28709730d6fc&oe=5DD5F40F" class="img-circle" alt="User Image">
 
                     <p>
-                      Alexander Pierce - Web Developer
+                      Hoàng Ngọc Thắng - Web Developer
                       <small>Member since Nov. 2012</small>
                     </p>
                   </li>
@@ -178,7 +178,7 @@
           <!-- Sidebar user panel -->
           <div class="user-panel">
             <div class="pull-left image">
-              <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+              <img src="https://scontent.fhph1-2.fna.fbcdn.net/v/t1.0-9/65433994_2371782709769127_1807338013571678208_n.jpg?_nc_cat=109&_nc_oc=AQndjujF82xmBmkKbtc6lGdN5TIWmYXo3Judu9Wv3Lrs08Xg5MacgkEr2RVuKR-FKr34N-dX_Nu5YSGPIMI5t5tJ&_nc_ht=scontent.fhph1-2.fna&oh=b403dba86d2008aa04dd28709730d6fc&oe=5DD5F40F" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
               <p>Alexander Pierce</p>
@@ -198,23 +198,18 @@
           <!-- /.search form -->
           <!-- sidebar menu: : style can be found in sidebar.less -->
           <ul class="sidebar-menu" data-widget="tree">
-            <li class="header">MAIN NAVIGATION</li>
-            <li class="active treeview">
-              <a href="#">
-                <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-                <span class="pull-right-container">
-                  <i class="fa fa-angle-left pull-right"></i>
-                </span>
-              </a>
-              <ul class="treeview-menu">
-                <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-                <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-              </ul>
-            </li>
+            <li class="header">Menu</li>
+           
             <li>
                 <a href="{{route('categories.index')}}">
                     <i class="fa fa-sliders"></i>
-                    <span>Danh mục</span>
+                    <span>Categories (danh mục)</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{route('posts.index')}}">
+                    <i class="fa fa-file-text"></i>
+                    <span>Posts ( Bài viết )</span>
                 </a>
             </li>
           </ul>
@@ -229,9 +224,9 @@
       <!-- /.content-wrapper -->
       <footer class="main-footer">
         <div class="pull-right hidden-xs">
-          <b>Version</b> 2.4.13
+          <b>Version</b> 8888
         </div>
-        <strong>Copyright &copy; 2014-2019 <a href="https://adminlte.io">AdminLTE</a>.</strong> All rights
+        <strong>Copyright &copy; 2019 <a href="https://adminlte.io">AdminLTE</a>.</strong> All rights
         reserved.
       </footer>
 

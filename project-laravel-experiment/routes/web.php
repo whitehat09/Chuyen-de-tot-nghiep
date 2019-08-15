@@ -49,3 +49,4 @@ Route::get('/back', function () {
 });
 
 Route::resource('admin/categories', 'Admin\CategoriesController');
+Route::resource('admin/posts', 'Admin\PostsController');

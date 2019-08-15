@@ -37,10 +37,11 @@
               <table class="table table-hover">
                 <tbody><tr>
                   <th>ID</th>
-                  <th>User</th>
-                  <th>description</th>
+                  <th>Title</th>
+                  <th>Description</th>
                   <th>Status</th>
                   <th>Delete</th>
+                  <th>Image</th>
                   <th>Edit</th>
                 </tr>
                 @foreach($categories as $category)
@@ -48,6 +49,7 @@
                   <td>{{$category->id}}</td>
                   <td>{{$category->title}}</td>
                   <td>{{$category->description}}</td>
+
                   <td><span class="label label-success">Approved</span></td>
                   <td>
 					<form method="Post" action={{route('categories.destroy',$category->id)}}>
@@ -57,6 +59,13 @@
                     <button type="submit" class="btn btn-danger">Delete</button>
 					</form>
                   	</td>
+                    <td>
+                      
+                      <a href="" style="padding: 5px">
+                        <img style="width: 100px ; height: 100px;" src="{{$category->img}}"  alt="img" name="img" >
+                      </a>
+                      
+                    </td>
                   <td>
 
 
@@ -64,6 +73,7 @@
                   		<span class="fa fa-edit"></span>
                   	</a>
                   </td>
+
                 </tr>
                 @endforeach
               </tbody></table>

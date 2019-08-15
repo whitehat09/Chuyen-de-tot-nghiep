@@ -18,5 +18,7 @@ class onlinelearning_category extends Seeder
             'img'=>'',
             
         ]);
+
+        
     }
 }

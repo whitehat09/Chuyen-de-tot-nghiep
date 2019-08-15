@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Validator;// thư viên cho Validator
 use App\Category;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -31,14 +31,10 @@ class CategoriesController extends Controller
     public function create()
     {
          $category = new Category();
-       
-     
-
         return view('admin.categories.create',[
             'category' => $category
         ]);
     }
-
     /**
      * Store a newly created resource in storage.
      *
@@ -47,14 +43,34 @@ class CategoriesController extends Controller
      */
     public function store(Request $request)
     {   // title không được bỏ trống
+        // dd($request->all());
+       
+
         Validator::make($request->all(), [
             'title' => 'required',
         ])->validate();
-        $category = new Category([
+
+        // kiểm tra xem có tồn tại uploadfile
+        if ($request->hasFile('uploadfile')) {
+
+           $file = $request->file('uploadfile');
+
+           $pathImg = '/uploads/'; // lưu file trong public/upload
+
+           $nameFile = $pathImg.$file->getClientOriginalName();// trả về tên  đường dẫn/tên ví dụ /uploads/img
+           $file->move(public_path().$pathImg, $nameFile);  // hàm move để lưu file với biến $path để lưu với đường dẫn mình muốn
+
+        }// có thể dùng else để echo khi chưa có file
+
+         $category = new Category([
             'title' => $request->get('title'),
-            'description' => $request->get('description'),           
+            'description' => $request->get('description'),  
+            'img' =>  $nameFile,   
+
         ]);
+
         $category->save();
+
         return redirect(route('categories.index'));     
     }
     /**
@@ -76,9 +92,12 @@ class CategoriesController extends Controller
     public function edit($id)
     {
         $category = Category::find($id);
+      /*  $img = Image::all()->where('post_id', '=', $id);*/
+        
 
         return view('admin.categories.edit',[
-            'category' => $category
+            'category' => $category ,
+            
         ]);
     }
 
@@ -93,8 +112,29 @@ class CategoriesController extends Controller
     {
         $category = Category::find($id);
         $category->title = $request->get('title');
-        $category->save();
+        
         $category->description = $request->get('description');
+     
+
+        if ($request->hasFile('uploadfile')) {
+
+           $file = $request->file('uploadfile');
+
+           $pathImg = '/uploads/'; // lưu file trong public/upload
+
+           $nameFile = $pathImg.$file->getClientOriginalName();// trả về tên  đường dẫn/tên ví dụ /uploads/img
+           $file->move(public_path().$pathImg, $nameFile);  // hàm move để lưu file với biến $path để lưu với đường dẫn mình muốn
+           // public_path() hàm lưu về thưu mục
+           $category->img =$nameFile ;
+
+          /* dd($category->img);
+ */
+        }// có thể dùng else để echo khi chưa có file
+
+       
+
+
+       
         $category->save();
         return redirect(route('categories.index'));
     }
