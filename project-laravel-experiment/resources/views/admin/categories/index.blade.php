@@ -50,13 +50,17 @@
                   <td>{{$category->title}}</td>
                   <td>{{$category->description}}</td>
 
-                  <td><span class="label label-success">Approved</span></td>
+                  <td>
+                    <span class="label label-success">
+                      đang hoạt động
+                    </span>
+                  </td>
                   <td>
 					<form method="Post" action={{route('categories.destroy',$category->id)}}>
 						@csrf
                     @method('DELETE')
       
-                    <button type="submit" class="btn btn-danger">Delete</button>
+                    <button type="submit" class="btn btn-danger">Xóa</button>
 					</form>
                   	</td>
                     <td>

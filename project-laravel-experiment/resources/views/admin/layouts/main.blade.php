@@ -181,14 +181,14 @@
               <img src="https://scontent.fhph1-2.fna.fbcdn.net/v/t1.0-9/65433994_2371782709769127_1807338013571678208_n.jpg?_nc_cat=109&_nc_oc=AQndjujF82xmBmkKbtc6lGdN5TIWmYXo3Judu9Wv3Lrs08Xg5MacgkEr2RVuKR-FKr34N-dX_Nu5YSGPIMI5t5tJ&_nc_ht=scontent.fhph1-2.fna&oh=b403dba86d2008aa04dd28709730d6fc&oe=5DD5F40F" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
-              <p>Alexander Pierce</p>
+              <p>Hoàng Ngọc Thắng</p>
               <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
           </div>
           <!-- search form -->
           <form action="#" method="get" class="sidebar-form">
             <div class="input-group">
-              <input type="text" name="q" class="form-control" placeholder="Search...">
+              <input type="text" name="q" class="form-control" placeholder="Tìm kiếm ...">
               <span class="input-group-btn">
                     <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
                     </button>

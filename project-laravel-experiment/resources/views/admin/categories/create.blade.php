@@ -40,7 +40,7 @@
            <div class="box collapsed-box">
             <div class="box-header">
               <h3 class="box-title">Thêm danh mục
-                <small>Simple and fast</small>
+                <small>nhấn vào dấu cộng để thêm</small>
               </h3>
 
               <!-- tools box -->
@@ -74,16 +74,12 @@
 
                 <p class="help-block">Example block-level help text here.</p>
               </div>
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox"> Check me out
-                </label>
-              </div>
+              
             </div>
             <!-- /.box-body -->
 
             <div class="box-footer">
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary">Áp dụng</button>
             </div>
 
 

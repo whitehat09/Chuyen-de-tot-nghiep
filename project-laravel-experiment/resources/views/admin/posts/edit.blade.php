@@ -64,9 +64,28 @@
                     <textarea placeholder=" Nhập tiêu mô tả (Description) tại đây" class="form-control" style="height:100px"  cols="50" rows="10" value="{{ $post->description }}"name="description"></textarea>
 
 
-                    <textarea placeholder="Nhập tiêu nội dung (content) tại đây" class="form-control" style="height:100px"  cols="50" rows="10" value="{{ $post->description }}" name="content"></textarea>
-
-
+                    <textarea placeholder="Nhập tiêu nội dung (content) tại đây" class="form-control" style="height:100px"  cols="50" rows="10" value="{{ $post->content }}" name="content"></textarea>
+                    <p>status trang thái</p>
+    
+                    <div class="form-group">
+                            <input type="checkbox" title="" name="status"
+                                   class="minimal none-action">
+                            
+                        </div>
+                    <p>display_homepage hiển thị trang chủ </p>
+    
+                    <div class="form-group">
+                            <input type="checkbox" title="" name="display_homepage"
+                                   class="minimal none-action">
+                            
+                        </div>
+                        <p>nổi bật</p>
+    
+                    <div class="form-group">
+                            <input type="checkbox" title="" name="featured"
+                                   class="minimal none-action">
+                            
+                        </div>
                   </div>
 
                 </div>

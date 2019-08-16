@@ -9,7 +9,7 @@
           </h1>
           <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i>Trang chủ</a></li>
-            <li class="active">Danh mục</li>
+            <li class="active">Bài viết</li>
           </ol>
         </section>
 
@@ -50,16 +50,21 @@
                 @foreach($posts as $post)
                 <tr>
                   <td>{{$post->id}}</td>
-                  <td>{{$post->id_gv}}</td>
+         
+                 
+                  <td><?= $post['category']['title'] ?></td>
+              
                   <td>{{$post->title}}</td>
                   <td>{{$post->description}}</td>
                   <td>{{$post->content}}</td>
-                  <td><span class="label label-success">Approved</span></td>
+                  <td><span class="label label-success">
+                  Đang hoạt động
+                  </span></td>
                   <td>{{$post->featured}}</td>
                   <td>
                       
                       <a href="" style="padding: 5px">
-                        <img src="{{$post->img}}"  alt="img" name="img" >
+                        <img style="width: 100px;height: 100px" src="{{$post->img}}"  alt="img" name="img" >
                       </a>
                       
                     </td>
@@ -69,7 +74,9 @@
 						@csrf
                     @method('DELETE')
       
-                    <button type="submit" class="btn btn-danger">Delete</button>
+                    <button type="submit" class="btn btn-danger">
+                      Xóa
+                    </button>
 					</form>
                   	</td>
                     
