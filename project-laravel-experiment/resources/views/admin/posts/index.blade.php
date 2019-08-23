@@ -37,7 +37,7 @@
               <table class="table table-hover">
                 <tbody><tr>
                   <th>ID</th>
-                  <th>ID GV(tác giả post)</th>
+                  <th>ID of categorry( title of category)</th>
                   <th>Title</th>
                   <th>Description</th>
                   <th>content</th>
@@ -51,8 +51,8 @@
                 <tr>
                   <td>{{$post->id}}</td>
          
-                 
-                  <td><?= $post['category']['title'] ?></td>
+                  <td>{{$post->category->title}}</td>
+
               
                   <td>{{$post->title}}</td>
                   <td>{{$post->description}}</td>

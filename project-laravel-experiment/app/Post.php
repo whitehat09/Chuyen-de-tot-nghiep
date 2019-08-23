@@ -15,7 +15,8 @@ class Post extends Model
 
     public function category()
     {
-    	 return $this->belongsTo('App\Category');
+    	 return $this->belongsTo('App\Category','id_gv'); // id_gv là tên của category cha
+    	  return $this->hasMany('App\Post', 'foreign_key', 'local_key');
     }
 
 }

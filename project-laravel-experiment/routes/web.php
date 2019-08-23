@@ -10,8 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/a', function () {
+    return view('home.index.index');
+});
 Route::get('/index', function () {
-    return view('home.index');
+    return view('home.layouts.main');
 });
 
 Route::get('/index-profile', function () {
@@ -50,3 +53,5 @@ Route::get('/back', function () {
 
 Route::resource('admin/categories', 'Admin\CategoriesController');
 Route::resource('admin/posts', 'Admin\PostsController');
+
+Route::resource('home/index', 'Home\HomeController');

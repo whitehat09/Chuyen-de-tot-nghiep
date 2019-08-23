@@ -14,6 +14,8 @@ class Category extends Model
     ];
     public function posts()
     {
-    	 return $this->hasMany('App\Post');
+    	 return $this->hasMany('App\Post', 'foreign_key', 'local_key');
+    	  return $this->belongsTo('App\posts');
+
     }
 }

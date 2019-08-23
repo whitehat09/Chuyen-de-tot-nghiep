@@ -60,7 +60,7 @@
                   <div class="form-group">
                     <label for="exampleInputEmail1">Thêm tên tiêu đề</label>
                     <input value="{{ $post->title }}" placeholder="Nhập tiêu đề tại đây" title=""
-                    type="text" class="form-control" name="title"/>
+                    type="text" class="form-control" name=""/>
                     <textarea placeholder=" Nhập tiêu mô tả (Description) tại đây" class="form-control" style="height:100px"  cols="50" rows="10" value="{{ $post->description }}"name="description"></textarea>
 
 
@@ -93,7 +93,6 @@
               </div>
               <div class="form-group">
                 <label for="exampleInputFile">File input</label>
-                <input type="file" id="exampleInputFile" name="uploadfile" >
 
                 <p class="help-block">Example block-level help text here.</p>
               </div>
